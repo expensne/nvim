@@ -60,6 +60,7 @@ CTRL-h      - Signature help
 todo: https://github.com/neovim/nvim-lspconfig#suggested-configuration
 
 # trouble
+
 :xx         - Toggle trouble
 :xq         - Toggle trouble quickfix
 
