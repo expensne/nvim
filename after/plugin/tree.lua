@@ -1,4 +1,4 @@
-vim.keymap.set("n", "<leader>vp", vim.cmd.NvimTreeFocus)
+vim.keymap.set("n", "<leader>pv", vim.cmd.NvimTreeFocus)
 
 -- disable netrw at the very start of your init.lua (strongly advised)
 vim.g.loaded_netrw = 1
