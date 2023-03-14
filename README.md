@@ -13,6 +13,14 @@ Location: `~/.config/nvim`
 :so         - Source (shout out)
 :PackerSync - Install / update packages
 
+# remaps
+
+:y          - Yank to system clipboard (same as y)
+:yy         - Yank to system clipboard (same as yy)
+:yg_        - Yank to system clipboard (same as yg_)
+:p          - Paste from system clipboard (same as p)
+:P          - Paste from system clipboard (same as P)
+
 # telescope
 
 :pf         -   Search project files (project file)
@@ -107,3 +115,11 @@ brew install neovim
 [vim-fugitive](https://github.com/tpope/vim-fugitive) - git integration
 
 [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - statusline
+
+## Optional
+
+Add this to your `~/.config/nvim/init.vim` to copy and paste to and from neovim and other apps:
+
+```
+set clipboard=unnamed
+```
