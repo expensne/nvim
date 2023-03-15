@@ -9,3 +9,5 @@ vim.keymap.set("v", "<leader>p", '"+p')
 vim.keymap.set("v", "<leader>P", '"+P')
 vim.keymap.set("n", "<leader>p", '"+p')
 vim.keymap.set("n", "<leader>P", '"+P')
+
+vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)

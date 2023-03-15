@@ -8,6 +8,10 @@ Location: `~/.config/nvim`
 [VIM KEYBOARD SHORTCUTS](https://gist.github.com/tuxfight3r/0dca25825d9f2608714b)
 
 ```
+# useful
+
+:gg=G       - Fix indentation of whole file
+
 # packer
 
 :so         - Source (shout out)
@@ -20,6 +24,7 @@ Location: `~/.config/nvim`
 :yg_        - Yank to system clipboard (same as yg_)
 :p          - Paste from system clipboard (same as p)
 :P          - Paste from system clipboard (same as P)
+:f          - Format file
 
 # telescope
 
@@ -123,3 +128,6 @@ Add this to your `~/.config/nvim/init.vim` to copy and paste to and from neovim 
 ```
 set clipboard=unnamed
 ```
+
+## TODO
+working with multiple files e.g. harpoon
