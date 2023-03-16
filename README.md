@@ -8,9 +8,42 @@ Location: `~/.config/nvim`
 [VIM KEYBOARD SHORTCUTS](https://gist.github.com/tuxfight3r/0dca25825d9f2608714b)
 
 ```
-# useful
+# vim: movement
 
-:gg=G       - Fix indentation of whole file
+H        - Move cursor to header (top) line of current visible window
+M        - Move cursor to middle line of current visible window
+L        - Move cursor to last line of current visible window
+
+m        - Move up by half a page (remapped)
+,        - Move down by half a page (remapped)
+
+%        - Move cursor to next brace, bracket or comment paired to the current cursor location
+*        - Search forward for word under cursor
+
+# vim: marking
+
+ma        - Set a marker a at cursor position to come back to later
+´a        - Move cursor to exact position of the marker you set with ma (remapped)
+ßa        - Move cursor to the first character of the line marked with ma (remapped)
+
+# vim: misc
+
+u        -   Undo
+U        -   Undo all changes on current line
+.        -   Redo
+:gg=G          - Fix indentation of whole file
+
+# vim: window management
+
+CTRL+w v       - Split current window vertically
+CTRL+w c       - Close current window
+CTRL+w m       - Move to window according to motion m
+
+#split screen vertical
+:vs filename
+or
+:vsplit filename
+vim -O file1 file2
 
 # packer
 
@@ -131,3 +164,9 @@ set clipboard=unnamed
 
 ## TODO
 working with multiple files e.g. harpoon
+-- Using <leader> + number (1, 2, ... 9) to switch tab
+for i=1,9,1
+do
+  map('n', '<leader>'..i, i.."gt", {})
+end
+map('n', '<leader>0', ":tablast<cr>", {})
