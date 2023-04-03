@@ -145,6 +145,7 @@ brew install neovim
 [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - file explorer
 - requires a [patched font](https://www.nerdfonts.com) (e.g. MesloLG)
 - install [tutorial (via brew)](https://www.geekbits.io/how-to-install-nerd-fonts-on-mac/)
+
 ([key mapping](https://user-images.githubusercontent.com/17254073/195207023-7b709e35-7f10-416b-aafb-5bb61268c7d3.png))
 
 [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim) - autocomplete 
