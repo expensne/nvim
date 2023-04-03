@@ -115,6 +115,10 @@ todo: https://github.com/neovim/nvim-lspconfig#suggested-configuration
 todo: configure
 ```
 
+# lua
+
+:lua applycs()  - Apply color sheme
+
 ## Sources
 ---
 
