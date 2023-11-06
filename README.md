@@ -2,6 +2,20 @@
 
 Location: `~/.config/nvim`
 
+Setup:
+
+1. Install nvim
+2. Install a plugin manager: packer (https://github.com/wbthomason/packer.nvim):
+    ```
+    git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+    ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+    ```
+    ```
+    nvim ~/.config/nvim/lua/expensne/packer.lua
+    :so
+    :PackerSync
+    ```
+
 ## Keymaps
 ---
 
